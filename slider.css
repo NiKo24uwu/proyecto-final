@@ -1,0 +1,50 @@
+.slider-container {
+    margin-top: 100px; 
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 500px; 
+}
+
+.position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider {
+    background-image: url(img/RapAlbums.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 75%;
+    border-radius: 10px;
+    animation: slider 10s infinite;
+}
+
+@keyframes slider {
+    33% {
+        background-image: url(img/fondo1.jpg);
+        background-size: cover;
+    }
+    66% {
+        background-image: url(img/2.jpg);
+        background-size: cover;
+    }
+    100% {
+        background-image: url(img/RapAlbums.jpg);
+        background-size: cover;
+    }
+}
+
+.carruseldemo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}

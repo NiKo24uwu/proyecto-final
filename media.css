@@ -1,0 +1,399 @@
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.2rem; 
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1rem; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+    .title {
+      font-size: 2.5rem;
+    }
+    .descripcion {
+      font-size: 1.1rem;
+    }
+    .titlefooter {
+      font-size: 1.3rem;
+    }
+    .textfooter {
+      font-size: 0.9rem;
+    }
+    .derechos {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    .title {
+      font-size: 3rem;
+    }
+    .descripcion {
+      font-size: 1.2rem;
+    }
+    .titlefooter {
+      font-size: 1.4rem;
+    }
+    .textfooter {
+      font-size: 1rem;
+    }
+    .derechos {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    .title {
+      font-size: 3.5rem;
+    }
+    .descripcion {
+      font-size: 1.3rem;
+    }
+    .titlefooter {
+      font-size: 1.6rem;
+    }
+    .textfooter {
+      font-size: 1.1rem;
+    }
+    .derechos {
+      font-size: 1.2rem;
+    }
+    #brakepg {
+      flex-direction: row; 
+      flex-wrap: wrap; 
+      justify-content: space-around; 
+    }
+    .youtube, .maps {
+      width: 45%; 
+      margin-top: 1rem;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .footer {
+      flex-direction: row; 
+      justify-content: space-between; 
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    .footer img {
+      margin-top: 0;
+      margin-left: 0;
+    }
+    .footer .derechos {
+      text-align: right;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .title {
+      font-size: 4rem;
+    }
+    .descripcion {
+      font-size: 1.5rem;
+    }
+    .titlefooter {
+      font-size: 1.8rem;
+    }
+    .textfooter {
+      font-size: 1.2rem;
+    }
+    .derechos {
+      font-size: 1.3rem;
+    }
+    #brakepg {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .youtube, .maps {
+      width: 45%;
+    }
+    .footer {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 3rem;
+    }
+    .footer .derechos {
+      text-align: right;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    .title {
+      font-size: 50px;
+    }
+    .descripcion {
+      font-size: 20px;
+    }
+    .titlefooter {
+      font-size: 30px;
+    }
+    .textfooter {
+      font-size: 18px;
+    }
+    .derechos {
+      font-size: 25px;
+    }
+    #brakepg {
+      width: 80%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .youtube {
+      width: 600px;
+      margin-top: 80px;
+    }
+    .maps {
+      width: 600px;
+      margin-top: 10px;
+    }
+    .footer {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 4rem;
+    }
+    .footer .derechos {
+      text-align: right;
+    }
+  }
+
+
+  @media (min-width: 768px) {
+    button {
+      width: auto; 
+      max-width: 400px; 
+      padding: 1rem 2rem; 
+      font-size: 1.2rem; 
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    button {
+      max-width: 500px; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    button {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .producto {
+      margin: 1rem 0;
+    }
+  
+    .titleh2 {
+      font-size: 1.2rem;
+      margin-top: auto;
+    }
+  
+    .titleproductos {
+      font-size: 1.5rem;
+    }
+  
+    .titleproducto {
+      font-size: 1.7rem;
+    }
+  
+    .descripcionproducto {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    .producto {
+      width: 80%;
+      margin: 1.5rem;
+    }
+  
+    .titleh2 {
+      font-size: 1.3rem;
+    }
+  
+    .titleproductos {
+      font-size: 1.6rem;
+    }
+  
+    .titleproducto {
+      font-size: 1.8rem;
+    }
+  
+    .descripcionproducto {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 992px) {
+    .producto {
+      width: 45%; 
+      margin: 1rem;
+    }
+  
+    .titleh2 {
+      font-size: 1.4rem;
+    }
+  
+    .titleproductos {
+      font-size: 1.7rem;
+    }
+  
+    .titleproducto {
+      font-size: 1.9rem;
+    }
+  
+    .descripcionproducto {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .producto {
+      width: 30%; 
+      margin: 1rem;
+    }
+  
+    .titleh2 {
+      font-size: 1.5rem;
+    }
+  
+    .titleproductos {
+      font-size: 1.8rem;
+    }
+  
+    .titleproducto {
+      font-size: 2rem;
+    }
+  
+    .descripcionproducto {
+      font-size: 1.2rem;
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    .producto {
+      width: 700px; 
+      height: 850px;
+      margin: 50px;
+    }
+  
+    .titleh2{
+      font-size: 30px;
+    }
+    .titleproductos{
+      font-size: 30px;
+    }
+    .titleproducto{
+      font-size: 35px;
+    }
+    .descripcionproducto{
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+  }
+
+@media (min-width: 577px) {
+    .col {
+      flex-basis: calc(50% - 5px); 
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .col {
+      flex-basis: 250px;
+    }
+  }
+
+
+
+@media (max-width: 576px) {
+    .title {
+      font-size: 1.8rem;
+    }
+    .radio-group {
+      flex-direction: column; 
+      align-items: flex-start;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    .title {
+      font-size: 2.2rem;
+    }
+  }
+  
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .title {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .imgyspotify {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .footer2 {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-content img{
+      margin-left: 20px;
+    }
+    .derechos{
+      text-align: left;
+      margin-left: 20px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .cuerpoprd h1 {
+      font-size: 2rem;
+    }
+    .cuerpoprd h2 {
+      font-size: 1.5rem;
+    }
+    .cuerpoprd p {
+      font-size: 1rem;
+    }
+    .descripcion h3{
+      font-size: 1.5rem;
+    }
+    .footer2 {
+      flex-direction: column;
+      text-align: center;
+    }
+    .derechos{
+      text-align: center;
+    }
+    .imgyspotify img{
+      padding: 1rem;
+    }
+  }
+

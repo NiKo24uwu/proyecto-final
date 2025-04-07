@@ -1,0 +1,102 @@
+#productos {
+    background-color: rgba(39, 39, 39, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem; 
+    padding: 0 1rem; 
+  }
+  
+  .producto {
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 3%, rgba(61, 60, 60, 1) 100%);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 700px; 
+    height: auto;
+    min-height: 400px; 
+    text-align: center;
+    color: #ffffff00;
+    margin: 1rem; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 10px, 
+      rgba(0, 0, 0, 0.12) 0px -3px 7px,
+      rgba(0, 0, 0, 0.12) 0px 1px 2px,
+      rgba(0, 0, 0, 0.17) 0px 4px 5px,
+      rgba(0, 0, 0, 0.09) 0px -1px 2px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between; 
+    padding-bottom: 2rem;
+  }
+  
+  .titleh2 {
+    background-image: url(img/concrete-wall-scratched-material-background-texture-concept.jpg);
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px; 
+    font-size: 1.5rem; 
+    text-align: center;
+    margin-top: auto; 
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0.5rem; 
+    border-radius: 1.5rem; 
+    width: 80%; 
+  }
+  
+  .titleproductos {
+    color: rgb(0, 0, 0);
+    padding-top: 25px;
+    font-size: 1.8rem; 
+    text-align: center;
+    font-family: "Courgette", cursive;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .titleproducto {
+    color: white;
+    font-size: 2rem; 
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .producto img {
+    width: 90%; 
+    max-width: 400px; 
+    height: auto;
+    text-align: center;
+    margin: 1rem auto; 
+  }
+  
+  .producto a {
+    padding: 0.7rem 1.5rem; 
+    background-color: rgb(71, 136, 6);
+    color: rgb(241, 241, 241);
+    font-size: 1.1rem; 
+    text-align: center;
+    margin: 1rem auto; 
+    border-radius: 0.3rem; 
+    text-decoration: none;
+  }
+  
+  .producto a:hover {
+    background-color: rgb(56, 107, 4);
+  }
+  
+  .descripcionproducto {
+    color: white;
+    font-size: 1.2rem; 
+    text-align: center;
+    margin: 20px; 
+    margin-top: auto; 
+    margin-bottom: auto; 
+    padding: 0 1rem;
+  }

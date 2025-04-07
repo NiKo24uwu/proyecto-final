@@ -1,0 +1,207 @@
+.cuerpoprd {
+    width: 95%; 
+    max-width: 1502px; 
+    height: auto; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/black-brick-wall-textured-background.jpg);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgb(70, 32, 1);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    margin-left: auto; 
+    margin-right: auto;
+    flex-direction: column;
+    padding-bottom: 2rem; 
+  }
+  
+  .cuerpoprd h1 {
+    background-color: rgba(18, 66, 139, 0);
+    border-radius: 10px; 
+    padding: 1rem; 
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem; 
+    margin-top: 1rem;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cuerpoprd h2 {
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin: 0;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cuerpoprd p {
+    background: #3d3c3c00;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem; 
+    margin: 1rem;
+    padding: 1rem;
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+  .imgyspotify {
+    flex-direction: column; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+  
+  .imgyspotify img {
+    width: 85%; 
+    max-width: 500px; 
+    height: auto;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 1rem;
+    margin: auto; 
+  }
+  
+  .spotify {
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    aspect-ratio: 16/9;
+    margin: auto;
+  }
+  
+  .descripcion {
+    background: rgba(61, 60, 60, 0);
+    height: auto; 
+  }
+  
+  .descripcion h3 {
+    background-color: transparent;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem; 
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer2 {
+    background-color: rgb(53, 50, 50);
+    margin-top: 2rem; 
+    padding: 1rem;
+    height: auto; 
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .footer-content img {
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .textfooter {
+    color: white;
+    font-size: 1rem; 
+    text-align: center;
+  }
+  
+  .derechos {
+    color: white;
+    font-size: 1rem; 
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .damn {
+    height: 100px;
+  }
+  
+  .titulo1{
+    background-color: rgb(29, 33, 34);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .titulo2 {
+    background-color: rgb(207, 153, 4);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .titulo3 {
+    background-color: rgb(131, 7, 7);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .titulo4 {
+    background-color: rgb(184, 89, 11);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .titulo5 {
+    background-color: rgb(29, 28, 27);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  footer {
+    background-color: rgb(48, 48, 48);
+    margin-top: 3rem;
+    padding: 1rem;
+    height: auto; 
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    box-sizing: border-box; 
+  }
+  
+  .footer img {
+    width: 60%;
+    max-width: 200px; 
+    height: auto;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .footer .derechos {
+    font-size: 1rem; 
+    margin-left: 10%;
+    margin-right: 90%;
+    margin-bottom: 0.5rem;
+  }
+  
